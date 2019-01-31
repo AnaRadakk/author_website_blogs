@@ -1,0 +1,275 @@
+header .jumbotron-fluid {
+  background-color: #fbf9f4;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 25px; }
+header .autor, header .kontakt, header .mediji {
+  text-align: center;
+  margin: 0; }
+header .autor {
+  display: none;
+  padding-bottom: 15px;
+  padding-top: 0; }
+  header .autor p {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    color: black; }
+    header .autor p:hover, header .autor p:focus {
+      background-color: transparent;
+      border-bottom-color: black; }
+header .mediji {
+  display: none; }
+header .kontakt {
+  display: none; }
+  header .kontakt .form-section .form-group label {
+    width: 96%;
+    display: block;
+    text-align: center;
+    font-weight: bold; }
+  header .kontakt .form-section {
+    margin-top: 40px;
+    text-align: left;
+    padding-bottom: 80px; }
+  header .kontakt input.form-control, header .kontakt textarea.form-control {
+    border: 2px solid #333;
+    height: 30px;
+    border-radius: 0;
+    padding-left: 30px; }
+  header .kontakt textarea.form-control {
+    height: 120px; }
+  header .kontakt .btn-primary {
+    background-color: #grey;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 20px; }
+  header .kontakt .phone {
+    margin-top: 20px; }
+header .video_media iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%; }
+header h1, header p {
+  color: black; }
+header p {
+  font-size: 20px; }
+header .navbar {
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  border: none; }
+  header .navbar .navbar-toggler {
+    padding: 0;
+    margin: 0; }
+header .navbar-collapse {
+  padding-bottom: 15px;
+  padding-top: 112px; }
+  header .navbar-collapse li {
+    text-align: center;
+    padding: 10px; }
+    header .navbar-collapse li a {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: black;
+      display: inline-block; }
+      header .navbar-collapse li a:hover, header .navbar-collapse li a:focus {
+        background-color: transparent; }
+
+@media (min-width: 400px) {
+  .lead {
+    margin-left: 60px;
+    margin-bottom: 10px; }
+
+  .navbar {
+    margin-bottom: 10px;
+    margin-top: -50px; }
+    .navbar .lead, .navbar .navbar-collapse {
+      display: inline; }
+    .navbar .navbar-toggler {
+      border: none;
+      margin-left: 2px; }
+    .navbar .navbar-collapse {
+      float: right;
+      padding: 0; }
+      .navbar .navbar-collapse .navbar-toggler-icon {
+        width: 20px;
+        height: 4px;
+        font-weight: bold; }
+
+  header .mediji {
+    margin-top: -80px;
+    background-color: #EAE7DC; }
+    header .mediji img {
+      margin-bottom: 15px; }
+  header .autor {
+    text-align: center;
+    margin-top: -150px;
+    background-color: #EAE7DC; } }
+@media (min-width: 668px) {
+  header .navbar-collapse {
+    padding-bottom: 0; } }
+@media (min-width: 992px) {
+  header .navbar-nav {
+    margin-top: -20px; }
+  header .lead, header .navbar-expand-lg {
+    display: inline; }
+  header .lead {
+    margin-left: 10px; }
+
+  header .autor {
+    text-align: center;
+    margin-top: 100px; }
+    header .autor p {
+      padding-top: 80px; }
+  header .kontakt p, header .kontakt .form {
+    padding-top: 50px; }
+  header .mediji {
+    margin-top: 70px; } }
+.main {
+  background-color: #fbf9f4; }
+  .main h2, .main h3, .main h4, .main h5, .main h6 {
+    color: black; }
+  .main h4 {
+    padding-top: 25px;
+    padding-bottom: 2px; }
+  .main p {
+    margin-top: 10px; }
+  .main #text {
+    display: none; }
+
+button {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box; }
+
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline; }
+
+.buttons, #share-buttons {
+  display: inline; }
+  .buttons .komentar, #share-buttons .komentar {
+    background-color: #fbf9f4; }
+
+.buttons {
+  background: transparent;
+  padding: 0;
+  margin: 0; }
+  .buttons .komentar img {
+    width: 25px;
+    background-color: #fbf9f4; }
+
+.message {
+  display: none; }
+
+.divider img {
+  background-color: #fbf9f4;
+  height: 32px;
+  width: 100%;
+  margin: 0; }
+
+.btn-md img {
+  display: inline;
+  padding-left: 15px;
+  width: 40px;
+  color: inherit; }
+
+.latest_articles .new {
+  margin-top: 55px; }
+
+header img {
+  height: 23px;
+  margin-top: 0;
+  padding-top: 0; }
+
+.pagination .page-item a {
+  background: transparent;
+  color: black;
+  border: none;
+  font-weight: lighter; }
+
+.page {
+  display: none; }
+
+.page-active {
+  display: block; }
+
+@media (min-width: 400px) {
+  .container-fluid {
+    margin-top: 32px;
+    width: 100% !important;
+    padding: 25px;
+    padding-left: 25px;
+    padding-bottom: 35px; }
+    .container-fluid h4 {
+      padding-bottom: 20px;
+      padding-top: 65px; }
+
+  .btn-container #more {
+    background-color: #fbf9f4;
+    color: black;
+    margin-top: 10px;
+    text-decoration: underline;
+    padding: 0; } }
+@media (min-width: 668px) {
+  .container-fluid {
+    display: block;
+    margin-left: 35px;
+    width: 100% !important; } }
+.main-foot {
+  position: relative;
+  height: 90px;
+  background-color: #2C3531; }
+  .main-foot .soc-net {
+    position: absolute;
+    top: -20px;
+    left: 80%;
+    transform: translateX(-50%); }
+  .main-foot .soc-net li {
+    float: left;
+    margin-right: 30px;
+    list-style: none; }
+  .main-foot .soc-net li:last-child {
+    margin-right: 0; }
+  .main-foot .soc-net li a {
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-image: url("slike/soc-net-sprite.png");
+    text-indent: -9999px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-position 0.3s; }
+  .main-foot .facebook {
+    background-color: #3c5a98; }
+  .main-foot .facebook:hover {
+    background-position: 0 -40px; }
+  .main-foot .google {
+    background-color: #d84937;
+    background-position: -120px 0; }
+  .main-foot .google:hover {
+    background-position: -120px -40px; }
+  .main-foot small {
+    padding-top: 50px;
+    color: #EFE2BA; }
+
+/*# sourceMappingURL=main.css.map */
